@@ -15,5 +15,5 @@ class MastermindTest < Minitest::Test
     assert_instance_of Array, game.color_sample
     assert color_sample
 
-
   end
+end
