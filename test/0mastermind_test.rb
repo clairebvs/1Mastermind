@@ -1,5 +1,6 @@
 require 'minitest/pride'
-require './lib/conways'
+require './lib/0Mastermind'
+require './lib/0game'
 
 class MastermindTest < Minitest::Test
   def test_it_exists
@@ -14,5 +15,5 @@ class MastermindTest < Minitest::Test
     assert_instance_of Array, game.color_sample
     assert color_sample
 
-    
+
   end
